@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- SIDEBAR -->
+    <section id="sidebar">
+        <a href="#" class="brand"><i class="bx bxs-smile icon"></i>AdminSite</a>
+        <ul class="side-menu">
+            <li><a href="#" class="active"><i class="bx bxs-dashboard icon"></i>Dshboard</a></li>
+            <li class="divider" data-text="main">Main</li>
+            <li><a href="#"><i class="bx bxs-inbox icon"></i>Setting <i class="bx bx-chevron-right icon-right"></i></a>
+                <ul class="side-dropdown">
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>General Setting</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Payment Gateways</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>SMS API</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Email Templates</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Bacup & Restore</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="bx bxs-inbox icon"></i>Accounts <i class="bx bx-chevron-right icon-right"></i></a>
+                <ul class="side-dropdown">
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Admin</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Agents</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Customers</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Supplyer</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="bx bxs-inbox icon"></i>Bookings <i class="bx bx-chevron-right icon-right"></i></a>
+                <ul class="side-dropdown">
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>All bookings</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Flight</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Hotel</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Visa</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Umrah</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Tours </a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Group Flight</a></li>
+                </ul>
+            </li>
+            <!-- <li><a href="#"><i class="bx bxs-widget icon"></i>Widgets</a></li> -->
+            <li class="divider" data-text="transections">Transections</li>
+            <li>
+                <a href="#"><i class="bx bxs-inbox icon"></i>Pay In <i class="bx bx-chevron-right icon-right"></i></a>
+                <ul class="side-dropdown">
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Bank</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Cash</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="bx bxs-inbox icon"></i>Payouts <i class="bx bx-chevron-right icon-right"></i></a>
+                <ul class="side-dropdown">
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Bank</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Cash</a></li>
+                </ul>
+            </li>
+            <li class="divider" data-text="cms">CMS</li>
+            <li><a href="#"><i class="bx bxs-widget icon"></i>Pages</a></li>
+            <li><a href="#"><i class="bx bxs-widget icon"></i>Menus</a></li>
+            <li>
+                <a href="#"><i class="bx bxs-inbox icon"></i>Blogs <i class="bx bx-chevron-right icon-right"></i></a>
+                <ul class="side-dropdown">
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Post</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Catagories</a></li>
+                    <li><a href="#"><i class="bx bxs-right-arrow-alt icon"></i>Setting </a></li>
+                </ul>
+            </li>
+            <li class="divider" data-text="offers">Offers</li>
+            <li><a href="#"><i class="bx bxs-widget icon"></i>Manage</a></li>
+            <li><a href="#"><i class="bx bxs-widget icon"></i>Setting </a></li>
+        </ul>
+    </section>
+    <!-- SIDEBAR -->
+
+    <!-- NAVBAR -->
+    <section id="content">
+        <!-- NAV -->
+        <nav>
+            <i class="bx bx-menu toggle-sidebar"></i>
+            <form action="">
+                <div class="form-group">
+                    <input type="text" name="" id="" placeholder="Search...">
+                    <i class="bx bx-search icon"></i>
+                </div>
+            </form>
+            <a href="" class="nav-link">
+                <i class="bx bxs-bell icon"></i>
+                <span class="badge">5</span>
+            </a>
+            <a href="" class="nav-link">
+                <i class="bx bxs-message-square-dots icon"></i>
+                <span class="badge">8</span>
+            </a>
+            <span class="divider"></span>
+            <div class="profile">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/A_Humble_Cartoon_Businessman.svg/791px-A_Humble_Cartoon_Businessman.svg.png" alt="">
+                <ul class="profile-link">
+                    <li><a href=""><i class="bx bxs-user-circle icon"></i>Profile</a></li>
+                    <li><a href=""><i class="bx bxs-cog icon"></i> Setting</a></li>
+                    <li><a href=""><i class="bx bxs-log-out-circle icon"></i> Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- NAV -->
+
+        <!-- MAIN -->
+        <main>
+            <h1 class="title">Customer Details</h1>
+            <ul class="breadcrumbs">
+                <li><a href="">Home</a></li>
+                <li class="divider">/</li>
+                <li><a href="" class="active">Customer Details</a></li>
+            </ul>
+            
+        </main>
+        <!-- MAIN -->
+    </section>
+    <!-- NAVBAR -->
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
